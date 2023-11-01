@@ -1,6 +1,7 @@
 /// <reference types="cypress" />
 
-const { inputFormsAndLogin } = require("../utils/login");
+import { inputFormsAndLogin } from "./utils/inputFormsAndLogin";
+
 
 const userName = Cypress.env('userName');
 const password = Cypress.env('password');
